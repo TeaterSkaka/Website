@@ -40,6 +40,10 @@ li {
   margin-bottom: 5px;
 }
 
+.order-last {
+  order: 100;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -195,7 +199,7 @@ li {
 
 .front-page .img {
   max-width: 100%;
-  min-height: 250px;
+  min-height: 300px;
   object-fit: cover;
 }
 
@@ -568,18 +572,19 @@ li {
     order: 6;
   }
   #cont7 {
-    order: 7;
+    order: 8;
   }
   #cont8 {
-    order: 8;
-  }
-
-  #info3 {
-    order: 8;
-  }
-
-  #info4 {
     order: 7;
+  }
+  #cont9 {
+    order: 9;
+  }
+  #cont10 {
+    order: 10;
+  }
+  #cont11 {
+    order: 11;
   }
 
   .site-container {
@@ -705,4 +710,18 @@ li {
 
 .show {
   display: block;
+}
+
+.under-construction {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.under-construction img {
+  width: 100px;
+  margin-bottom: 20px;
 }
