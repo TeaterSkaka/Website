@@ -218,7 +218,6 @@
           </svg>
         </a>
         <ul class="nav-list">
-          <li class="nav-item" onclick="toSite('om-oss')">Om oss</li>
           <li class="nav-item" onclick="toSite('aktuellt')">Aktuellt</li>
           <li class="nav-item" onclick="toSite('stod-vart-arbete')">
             Stöd vårt arbete
@@ -266,7 +265,6 @@
     </nav>
 
     <ul class="hamburger-menu">
-      <li class="burger-item lined" onclick="toSite('om-oss')">Om oss</li>
       <li class="burger-item lined" onclick="toSite('aktuellt')">Aktuellt</li>
       <li class="burger-item lined" onclick="toSite('stod-vart-arbete')">
         Stöd vårt arbete
@@ -276,7 +274,11 @@
       </li>
     </ul>
     <div class="hero-container landing-page">
-      <img class="img" src="imgs/placeholder-landing-page-banner.jpg" />
+      <img
+        class="img"
+        src="imgs/aktuellt.jpg"
+        alt="Närbild på röda teatersäten"
+      />
       <div class="hero-text">
         <h1>Aktuellt</h1>
       </div>
@@ -299,16 +301,27 @@
           <br />
           <p>
             Workshopen går att figursy efter era behov, och kan även hållas
-            online. <a href="kontakt.html">Kontakta oss</a> för att boka.
+            online.
           </p>
         </div>
+        <span class="content-link" onclick="toSite('kontakt')"
+          >Kontakta oss för att boka</span
+        >
       </div>
       <div class="content" id="cont2">
-        <img class="content-img" src="imgs/placeholder-image.jpg" />
+        <img
+          class="content-img"
+          src="imgs/dragking_worskhop.jpeg"
+          alt="Gruppbild efter en dragking worskhop"
+        />
       </div>
 
       <div class="content" id="cont3">
-        <img class="content-img" src="imgs/placeholder-image.jpg" />
+        <img
+          class="content-img"
+          src="imgs/flera_forestallningar.jpg"
+          alt="Fyra bilder från tidigare föreställningar"
+        />
       </div>
       <div class="content content-text" id="cont4">
         <h2 class="content-heading">Föreställningar</h2>
@@ -328,12 +341,19 @@
             Vi sätter ihop shower efter dina önskemål. Det kan t.ex. handlar om
             barnföreställningar, seminarier eller föreställningar för privata
             fester. Om du är intresserad av att höra mer om detta så är du
-            välkommen att <a href="kontakt.html">Kontakta oss</a>.
+            välkommen att höra av dig.
           </p>
         </div>
+        <span class="content-link" onclick="toSite('kontakt')"
+          >Kontakta oss</span
+        >
       </div>
       <div class="content" id="cont6">
-        <img class="content-img" src="imgs/placeholder-image.jpg" />
+        <img
+          class="content-img"
+          src="imgs/skakarep_2015.jpeg"
+          alt="Manusläsning på scen av två skådespelare"
+        />
       </div>
     </div>
     <footer class="footer">
@@ -515,9 +535,6 @@
         </div>
         <div class="footer-section centered">
           <ul class="footer-list">
-            <li class="footer-item" onclick="toSite('om-oss')">
-              <span class="footer-text">Om oss</span>
-            </li>
             <li class="footer-item" onclick="toSite('aktuellt')">
               <span class="footer-text">Aktuellt</span>
             </li>
@@ -532,7 +549,7 @@
         <div class="footer-section">
           <ul class="footer-list">
             <li class="footer-item bold">Besök oss</li>
-            <li class="footer-item">Västra storgatan 7</li>
+            <li class="footer-item">Västra storgatan 7 (i gränden)</li>
             <li class="footer-item">611 31 Nyköping</li>
           </ul>
           <div class="socials-wrapper">

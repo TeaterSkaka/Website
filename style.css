@@ -35,6 +35,15 @@ h1 {
   font-size: 40px;
 }
 
+li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .title {
   margin-top: 40px;
   padding: 20px 0px 20px 0px;
@@ -319,14 +328,26 @@ h1 {
   align-items: center;
 }
 
+.member-img {
+  margin-bottom: 20px;
+}
+
 .member-info {
-  padding: 20px 0px;
+  text-align: center;
 }
 
 .round-img {
   width: 250px;
   height: 250px;
   object-fit: cover;
+}
+
+.cta-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
 /* Slideshow */
@@ -516,6 +537,10 @@ h1 {
     padding: 0;
   }
 
+  .cta-button {
+    padding: 30px;
+  }
+
   .content-text {
     padding: 20px 15%;
   }
@@ -541,6 +566,12 @@ h1 {
   }
   #cont6 {
     order: 6;
+  }
+  #cont7 {
+    order: 7;
+  }
+  #cont8 {
+    order: 8;
   }
 
   #info3 {

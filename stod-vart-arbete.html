@@ -218,7 +218,6 @@
           </svg>
         </a>
         <ul class="nav-list">
-          <li class="nav-item" onclick="toSite('om-oss')">Om oss</li>
           <li class="nav-item" onclick="toSite('aktuellt')">Aktuellt</li>
           <li class="nav-item" onclick="toSite('stod-vart-arbete')">
             Stöd vårt arbete
@@ -266,7 +265,6 @@
     </nav>
 
     <ul class="hamburger-menu">
-      <li class="burger-item lined" onclick="toSite('om-oss')">Om oss</li>
       <li class="burger-item lined" onclick="toSite('aktuellt')">Aktuellt</li>
       <li class="burger-item lined" onclick="toSite('stod-vart-arbete')">
         Stöd vårt arbete
@@ -276,7 +274,7 @@
       </li>
     </ul>
     <div class="hero-container landing-page">
-      <img class="img" src="imgs/placeholder-landing-page-banner.jpg" />
+      <img class="img" src="imgs/stod_vart_arbete.jpg" alt="En röd ridå" />
       <div class="hero-text">
         <h1>Stöd vårt arbete</h1>
       </div>
@@ -296,41 +294,41 @@
           <p>
             Ditt viktiga stöd låter oss fortsätta hjälpa människor i olika
             åldrar genom teater och drama.
-            <a href="kontakt.html">Kontakta oss</a> för att bli stödmedlem.
           </p>
-        </div>
-      </div>
-      <div class="content" id="cont2">
-        <img class="content-img" src="imgs/placeholder-image.jpg" />
-      </div>
-
-      <div class="content" id="cont3">
-        <img class="content-img" src="imgs/placeholder-image.jpg" />
-      </div>
-      <div class="content content-text" id="cont4">
-        <h2 class="content-heading">Swisha ett engångsbidrag</h2>
-        <div class="content-para">
           <p>
             Om du istället vill skänka ett engångsbidrag till oss tar vi
-            självklart tacksamt emot det. Swisha valfri summa till 123 075 30 12
+            självklart tacksamt emot det. Swisha valfri summa till
+            <b>123 075 30 12</b>
             och märk med ”Skaka stöd”.
           </p>
         </div>
+        <span class="content-link" onclick="toSite('kontakt')"
+          >Kontakta oss för att bli stödmedlem</span
+        >
+      </div>
+      <div class="content" id="cont2">
+        <img
+          class="content-img"
+          src="imgs/teaterskaka_2014.jpeg"
+          alt="Gruppbild på Teater Skaka 2014"
+        />
       </div>
 
-      <div class="content content-text" id="cont5">
+      <div class="content" id="cont3">
+        <img class="content-img" src="imgs/samarbete_2022.jpeg" alt="Tre " />
+      </div>
+      <div class="content content-text" id="cont4">
         <h2 class="content-heading">Samarbeten</h2>
         <div class="content-para">
           <p>
             Vi är alltid intresserade av att samarbeta med olika företag,
             organisationer och föreningar mm. Vill du starta upp ett samarbete
-            med oss? <a href="kontakt.html">Kontakta oss</a> så kan vi diskutera
-            vidare!
+            med oss?
           </p>
         </div>
-      </div>
-      <div class="content" id="cont6">
-        <img class="content-img" src="imgs/placeholder-image.jpg" />
+        <span class="content-link" onclick="toSite('kontakt')"
+          >Kontakta oss</span
+        >
       </div>
     </div>
     <footer class="footer">
@@ -512,9 +510,6 @@
         </div>
         <div class="footer-section centered">
           <ul class="footer-list">
-            <li class="footer-item" onclick="toSite('om-oss')">
-              <span class="footer-text">Om oss</span>
-            </li>
             <li class="footer-item" onclick="toSite('aktuellt')">
               <span class="footer-text">Aktuellt</span>
             </li>
@@ -529,7 +524,7 @@
         <div class="footer-section">
           <ul class="footer-list">
             <li class="footer-item bold">Besök oss</li>
-            <li class="footer-item">Västra storgatan 7</li>
+            <li class="footer-item">Västra storgatan 7 (i gränden)</li>
             <li class="footer-item">611 31 Nyköping</li>
           </ul>
           <div class="socials-wrapper">
