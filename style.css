@@ -711,3 +711,7 @@ li {
 .show {
   display: block;
 }
+
+.teaterskaka-logo:hover {
+  filter: opacity(0.8);
+}
