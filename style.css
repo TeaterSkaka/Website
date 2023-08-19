@@ -254,6 +254,13 @@ li {
 .content {
   width: 45%;
   display: flex;
+  justify-content: center;
+  padding: 2.5%;
+}
+
+.content-center {
+  width: 45%;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: 2.5%;
@@ -316,6 +323,7 @@ li {
   border: 1.5px solid var(--light-black);
   padding: 8px 15px;
   transition: 0.3s;
+  align-self: center;
 }
 
 .content-link:hover {
