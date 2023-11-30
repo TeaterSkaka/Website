@@ -343,6 +343,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   padding: 25px 0px;
+  justify-content: space-evenly;
 }
 
 .board-member {
