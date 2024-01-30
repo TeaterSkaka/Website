@@ -304,6 +304,7 @@ li {
   font-size: 16px;
   padding: 25px 0px;
   text-align: left;
+  max-width: 1000px;
 }
 
 .content-para a:hover {
@@ -712,10 +713,6 @@ li {
 
   .information-container {
     width: 100%;
-  }
-
-  .content-full .content-heading {
-    align-self: baseline;
   }
 
   .content-text {
